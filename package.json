@@ -1,0 +1,29 @@
+{
+  "name": "games-shop",
+  "version": "1.0.0",
+  "description": "A professional game store website with a modern UI and a fully functional shopping cart.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Static site, no build required.'",
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Games-Shop/Games-Shop.git"
+  },
+  "keywords": [
+    "games",
+    "shop",
+    "ecommerce",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Games Shop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Games-Shop/Games-Shop/issues"
+  },
+  "homepage": "https://github.com/Games-Shop/Games-Shop#readme"
+}

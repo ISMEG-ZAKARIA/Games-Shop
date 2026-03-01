@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Cart</title>
+  <link rel="stylesheet" href="/index.css"/>
+</head>
+<body>
+  <div class="Back-Header Header">
+    <a href="index.html"><img src="./Images/FINAL-LOGO.png" class="logo" /></a>
+    <div class="LINK">
+      <a class="cart-button" href="cart.html" aria-label="Open cart">
+        <img src="Images/online-shopping.png" class="cart-icon"/>
+        <span class="cart-badge" id="cart-count">0</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="cart-page">
+    <h1 class="cart-page-title">Cart</h1>
+    <div class="cart-grid">
+      <div class="cart-table">
+        <div class="cart-table-head">
+          <span>Product</span>
+          <span>Price</span>
+          <span>Quantity</span>
+          <span>Subtotal</span>
+        </div>
+        <div class="cart-table-body" id="cart-table-body"></div>
+        <div class="cart-table-actions">
+          <a href="index.html" class="btn btn-outline">Continuer mes achats</a>
+          <button id="empty-cart" class="btn btn-outline">Panier vide</button>
+        </div>
+      </div>
+      <div class="cart-summary">
+        <div class="summary-row"><span>Articles</span><span id="summary-items">0</span></div>
+        <div class="summary-row"><span>Livraison</span><span>gratuit</span></div>
+        <div class="summary-row total"><span>Total TTC</span><span id="summary-total">0,00 MAD</span></div>
+        <button class="btn btn-outline" id="checkout">Commander</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+

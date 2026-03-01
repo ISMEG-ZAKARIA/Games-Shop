@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="Images/TEST-ICON.png" rel="icon" />
+    <title>404 - Page Not Found | Games Shop</title>
+    <link rel="stylesheet" href="/index.css"/>
+    <style>
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .error-code {
+            font-size: 120px;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-2) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+        }
+        .error-message {
+            font-size: 24px;
+            color: var(--color-text);
+            margin: 10px 0 30px;
+        }
+        .back-home {
+            color: var(--color-text);
+            text-decoration: none;
+            background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-2) 100%);
+            border-radius: 35px;
+            padding: 15px 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .back-home:hover {
+            background: linear-gradient(135deg, var(--color-accent-hover) 0%, var(--color-accent-2-hover) 100%);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="Back-Header"> 
+        <div class="Header">
+            <a href="index.html"><img src="./Images/FINAL-LOGO.png" class="logo" /></a>
+        </div>
+    </div>
+
+    <div class="error-container">
+        <h1 class="error-code">404</h1>
+        <p class="error-message">Oops! The page you're looking for doesn't exist.</p>
+        <a href="index.html" class="back-home">Back to Home</a>
+    </div>
+
+    <footer style="margin-top: 50px; padding: 30px; text-align: center; color: var(--color-muted); border-top: 1px solid var(--color-border);">
+        <p>&copy; 2026 Games Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
